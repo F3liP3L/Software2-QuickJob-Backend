@@ -5,35 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="143ecfda-8727-4c07-8ce5-61b0721dc7f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Software2-QuickJob-Backend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobApi/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobApi/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobApi/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobApi/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobApi/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobApi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobApi/src/main/java/co/edu/uco/quickjob/api/quickjobapi/QuickjobApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobApi/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobApi/src/test/java/co/edu/uco/quickjob/api/quickjobapi/QuickjobApiApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobCrosscutting/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobCrosscutting/src/main/java/co/edu/uco/quickjob/crosscutting/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobDTO/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobEntity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobRepository/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobRepository/src/main/java/co/edu/uco/quickjob/repository/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobApi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobApi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobApi/src/main/java/co/edu/uco/quickjob/api/quickjobapi/QuickjobApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobApi/src/main/java/co/edu/uco/quickjob/api/init/QuickjobApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobApi/src/test/java/co/edu/uco/quickjob/api/quickjobapi/QuickjobApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobApi/src/test/java/co/edu/uco/quickjob/api/init/init/QuickjobApiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobCrosscutting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobCrosscutting/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobCrosscutting/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobDTO.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobDTO/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobDTO/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobEntity.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobEntity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobEntity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobRepository.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobRepository/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobRepository/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobService.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobService/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,43 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "C:/Users/Felipe/Documents/Software II/Software2-QuickJob-Backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Felipe/Documents/Software II/Software2-QuickJob-Backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Spring Boot.QuickjobApiApplication">
-    <configuration name="QuickjobApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="QuickjobApi" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="co.edu.uco.quickjob.repository.quickjobapi.QuickjobApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickjobApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="QuickjobApi" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="co.edu.uco.quickjob.quickjobapi.QuickjobApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

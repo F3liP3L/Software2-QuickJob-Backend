@@ -12,7 +12,7 @@
     <artifactId>QuickjobApi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>QuickjobApi</name>
-    <description>QuickjobApi</description>
+    <description>Componente encargado de publicar APIs relacionada con los servicios de negocio ofrecidos por la aplicación, cumpliendo su objetivo de permitir la comunicación entre Quickjob y otros sistemas.</description>
     <properties>
         <java.version>20</java.version>
     </properties>
@@ -26,6 +26,21 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>co.edu.uco.quickjob</groupId>
+            <artifactId>QuickjobService</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>co.edu.uco.quickjob</groupId>
+            <artifactId>QuickjobCrosscutting</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>co.edu.uco.quickjob</groupId>
+            <artifactId>QuickjobDTO</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
