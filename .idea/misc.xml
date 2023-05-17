@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/QuickjobEntity/pom.xml" />
         <option value="$PROJECT_DIR$/QuickjobRepository/pom.xml" />
         <option value="$PROJECT_DIR$/QuickjobService/pom.xml" />
+        <option value="$PROJECT_DIR$/Crosscutting/pom.xml" />
       </list>
     </option>
   </component>
