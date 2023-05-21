@@ -5,21 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="143ecfda-8727-4c07-8ce5-61b0721dc7f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Crosscutting/src/main/java/co/edu/uco/crosscutting/exception/GeneralException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crosscutting/src/main/java/co/edu/uco/crosscutting/util/UtilDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crosscutting/src/main/java/co/edu/uco/crosscutting/util/UtilNumeric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crosscutting/src/main/java/co/edu/uco/crosscutting/util/UtilObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crosscutting/src/main/java/co/edu/uco/crosscutting/util/UtilSqlConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crosscutting/src/main/java/co/edu/uco/crosscutting/util/UtilText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Crosscutting/src/main/java/co/edu/uco/crosscutting/util/UtilUUID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobCrosscutting/src/main/java/co/edu/uco/quickjob/crosscutting/exception/QuickJobException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/CityDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/CountryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/DepartmentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/PersonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/ServiceDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/TypeIdentificationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/CityEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/CityDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/CountryDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/DepartmentDomain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Crosscutting/src/main/java/co/edu/uco/crosscutting/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobCrosscutting/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobCrosscutting/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobDTO/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobDTO/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobRepository/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobRepository/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crosscutting/src/main/java/co/edu/uco/crosscutting/exception/GeneralException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Crosscutting/src/main/java/co/edu/uco/crosscutting/exception/GeneralException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crosscutting/src/main/java/co/edu/uco/crosscutting/util/UtilDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Crosscutting/src/main/java/co/edu/uco/crosscutting/util/UtilDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,29 +56,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "C:/Users/Felipe/Documents/Otros Documentos/healthy-radar-plugin",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "9152b3114c34490e9323334a1410c3f1",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Felipe/Documents/Software II/Software2-QuickJob-Backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9152b3114c34490e9323334a1410c3f1&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="QuickjobApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="QuickjobApi" />
@@ -99,7 +101,9 @@
       <workItem from="1684157863332" duration="46000" />
       <workItem from="1684273244895" duration="2447000" />
       <workItem from="1684338961529" duration="2969000" />
-      <workItem from="1684428477399" duration="13677000" />
+      <workItem from="1684428477399" duration="16165000" />
+      <workItem from="1684624602855" duration="6630000" />
+      <workItem from="1684689529137" duration="8530000" />
     </task>
     <task id="LOCAL-00001" summary="Se acomoda las dependencias y estructura del proyecto">
       <created>1684031046185</created>
@@ -115,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684309324172</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Agrengando Excepciones y capa crosscutting">
+      <created>1684458216701</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684458216701</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +136,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Se acomoda las dependencias y estructura del proyecto" />
     <MESSAGE value="Agregando capa crosscutting mas trasversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregando capa crosscutting mas trasversal" />
+    <MESSAGE value="Agrengando Excepciones y capa crosscutting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agrengando Excepciones y capa crosscutting" />
   </component>
 </project>

@@ -25,10 +25,6 @@ public class GeneralException extends RuntimeException {
         setRootException(rootException);
     }
 
-
-    public static long getSerialversionuid() {
-        return serialVersionUID;
-    }
     public String getUserMessage() {
         return userMessage;
     }
@@ -47,6 +43,5 @@ public class GeneralException extends RuntimeException {
     private void setRootException(Exception rootException) {
         this.rootException = getUtilObject().getDefaultIsNull(rootException, new Exception());
     }
-
 
 }
