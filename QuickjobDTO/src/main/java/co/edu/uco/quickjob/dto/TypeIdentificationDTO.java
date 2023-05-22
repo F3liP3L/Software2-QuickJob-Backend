@@ -18,7 +18,7 @@ public class TypeIdentificationDTO {
         setCode(EMPTY);
         setName(EMPTY);
     }
-    public TypeIdentificationDTO create(){
+    public static final TypeIdentificationDTO create(){
         return new TypeIdentificationDTO();
     }
 

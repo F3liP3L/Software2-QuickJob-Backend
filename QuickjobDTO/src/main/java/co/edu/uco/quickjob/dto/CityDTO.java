@@ -1,7 +1,5 @@
 package co.edu.uco.quickjob.dto;
 
-import co.edu.uco.crosscutting.util.UtilObject;
-
 import static co.edu.uco.crosscutting.util.UtilObject.getUtilObject;
 import static co.edu.uco.crosscutting.util.UtilText.*;
 import static co.edu.uco.crosscutting.util.UtilText.trim;
@@ -10,6 +8,20 @@ public class CityDTO {
     private String id;
     private String name;
     private DepartmentDTO department;
+
+    public CityDTO(){
+        setId(EMPTY);
+        setName(EMPTY);
+        setDepartment(DepartmentDTO.create());
+    }
+    public CityDTO(final String id, final String name, final DepartmentDTO department) {
+        setId(id);
+        setName(name);
+        setDepartment(department);
+    }
+    public static final CityDTO create(){
+        return new CityDTO();
+    }
 
     public String getId() {
         if (isNull(id)){

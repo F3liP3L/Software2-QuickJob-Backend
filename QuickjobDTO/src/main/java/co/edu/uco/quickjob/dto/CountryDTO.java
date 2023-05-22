@@ -8,7 +8,7 @@ public class CountryDTO {
     private String id;
     private String name;
 
-    public CountryDTO(String id, String name) {
+    public CountryDTO(final String id, final String name) {
         setId(id);
         setName(name);
     }

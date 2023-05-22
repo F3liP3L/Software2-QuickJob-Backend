@@ -5,23 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="143ecfda-8727-4c07-8ce5-61b0721dc7f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/CityDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/CountryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/DepartmentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/PersonDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/ServiceDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/TypeIdentificationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/CityEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/CityDomain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/CountryDomain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/DepartmentDomain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/CountryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/DepartmentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/PersonDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/TypeIdentificationDomain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/UserDomain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Crosscutting/src/main/java/co/edu/uco/crosscutting/exception/GeneralException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Crosscutting/src/main/java/co/edu/uco/crosscutting/exception/GeneralException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Crosscutting/src/main/java/co/edu/uco/crosscutting/util/UtilDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Crosscutting/src/main/java/co/edu/uco/crosscutting/util/UtilDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/CityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/CityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/CountryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/CountryDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/DepartmentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/DepartmentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/PersonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/TypeIdentificationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/TypeIdentificationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <workItem from="1684338961529" duration="2969000" />
       <workItem from="1684428477399" duration="16165000" />
       <workItem from="1684624602855" duration="6630000" />
-      <workItem from="1684689529137" duration="8530000" />
+      <workItem from="1684689529137" duration="14601000" />
     </task>
     <task id="LOCAL-00001" summary="Se acomoda las dependencias y estructura del proyecto">
       <created>1684031046185</created>
@@ -126,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684458216701</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Agregando Util para fechas y DTOs">
+      <created>1684710224194</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684710224194</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +141,7 @@
     <MESSAGE value="Se acomoda las dependencias y estructura del proyecto" />
     <MESSAGE value="Agregando capa crosscutting mas trasversal" />
     <MESSAGE value="Agrengando Excepciones y capa crosscutting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agrengando Excepciones y capa crosscutting" />
+    <MESSAGE value="Agregando Util para fechas y DTOs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregando Util para fechas y DTOs" />
   </component>
 </project>

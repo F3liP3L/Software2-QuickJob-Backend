@@ -10,7 +10,7 @@ public class DepartmentDTO {
     private String name;
     private CountryDTO country;
 
-    public DepartmentDTO(String id, String name, CountryDTO country) {
+    public DepartmentDTO(final String id, final String name, final CountryDTO country) {
         setId(id);
         setName(name);
         this.country = country;

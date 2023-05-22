@@ -15,7 +15,7 @@ public class UtilDate {
         return getUtilObject().isNull(date);
     }
 
-    public Date getDefault(Date value) {
+    public Date getDefaultIsNull(Date value) {
         return getUtilObject().getDefaultIsNull(value, new Date());
     }
 
