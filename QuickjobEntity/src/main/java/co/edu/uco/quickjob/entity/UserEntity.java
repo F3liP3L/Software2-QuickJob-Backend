@@ -9,14 +9,17 @@ import java.util.UUID;
 @Data
 @NoArgsConstructor
 @Entity
-@Table(name = "ciudad")
-public class CityEntity {
+@Table(name = "usuario")
+public class UserEntity {
     @Id
     private UUID id;
     private String name;
-
-    @ManyToOne
+    private String email;
+    private String profileDescription;
+    private String password;
+    private String image;
+    @OneToOne
     @JoinColumn
-    private DepartmentEntity department;
+    private PersonEntity person;
 
 }

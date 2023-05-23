@@ -11,12 +11,11 @@ import java.util.UUID;
 @Table(name = "departamento")
 public class DepartmentEntity {
     @Id
-    @Column(name = "codigo")
     private UUID id;
-    @Column(name = "nombre")
+
     private String name;
     @ManyToOne
-    @JoinColumn(name = "pais")
+    @JoinColumn
     private CountryEntity country;
 }
 

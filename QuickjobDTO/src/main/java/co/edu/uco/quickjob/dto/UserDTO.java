@@ -9,16 +9,17 @@ public class UserDTO {
     private String id;
     private String name;
     private String email;
+    private String profileDescription;
     private String password;
     private String image;
-
     private PersonDTO person;
 
-    public UserDTO(String id, String name, String email, String password, String image, PersonDTO person) {
+    public UserDTO(String id, String name, String email, String profileDescription, String password, String image, PersonDTO person) {
         setId(id);
         setName(name);
         setEmail(email);
         setPassword(password);
+        setProfileDescription(profileDescription);
         setPerson(person);
         setImage(image);
     }
@@ -29,6 +30,7 @@ public class UserDTO {
         setEmail(EMPTY);
         setPassword(EMPTY);
         setPerson(PersonDTO.create());
+        setProfileDescription(EMPTY);
         setImage(EMPTY);
     }
 
@@ -97,5 +99,16 @@ public class UserDTO {
 
     public void setImage(String image) {
         this.image = image;
+    }
+
+    public String getProfileDescription() {
+        if(isNull(profileDescription)){
+            setProfileDescription(profileDescription);
+        }
+        return profileDescription;
+    }
+
+    public void setProfileDescription(String profileDescription) {
+        this.profileDescription = trim(profileDescription);
     }
 }
