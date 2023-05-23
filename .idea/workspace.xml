@@ -5,40 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="143ecfda-8727-4c07-8ce5-61b0721dc7f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/QuickjobApi/src/main/java/co/edu/uco/quickjob/api/init/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobCrosscutting/src/main/java/co/edu/uco/quickjob/crosscutting/exception/QuickJobCustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobCrosscutting/src/main/java/co/edu/uco/quickjob/crosscutting/exception/enumeration/ExceptionLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobCrosscutting/src/main/java/co/edu/uco/quickjob/crosscutting/exception/enumeration/ExceptionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobCrosscutting/src/main/java/co/edu/uco/quickjob/crosscutting/exception/util/UtilBase64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/PersonEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/TypeIdentificationEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobRepository/src/main/java/co/edu/uco/quickjob/repository/CityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobRepository/src/main/java/co/edu/uco/quickjob/repository/CountryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobRepository/src/main/java/co/edu/uco/quickjob/repository/DepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobRepository/src/main/java/co/edu/uco/quickjob/repository/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobRepository/src/main/java/co/edu/uco/quickjob/repository/TypeIdentificationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobRepository/src/main/java/co/edu/uco/quickjob/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/assambler/dto/DTOAssambler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/assambler/dto/implementation/CountryDTOAssambler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/assambler/dto/implementation/DepartmentDTOAssambler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/assambler/entity/EntityAssambler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/assambler/entity/implementation/CountryEntityImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/CityDomainBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/CountryDomainBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/DepartmentDomainBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/PersonDomainBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/TypeIdentificationDomainBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/UserDomainBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuickjobApi/src/main/java/co/edu/uco/quickjob/api/init/QuickjobApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobApi/src/main/java/co/edu/uco/quickjob/api/init/QuickjobApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobApi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobApi/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobCrosscutting/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobCrosscutting/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobCrosscutting/src/main/java/co/edu/uco/quickjob/crosscutting/exception/QuickJobException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobEntity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobEntity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobApi/src/main/java/co/edu/uco/quickjob/api/init/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobApi/src/main/java/co/edu/uco/quickjob/api/init/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/CityEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/CityEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/CountryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/CountryEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/DepartmentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/DepartmentEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobRepository/src/main/java/co/edu/uco/quickjob/repository/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/PersonEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/PersonEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/TypeIdentificationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/TypeIdentificationEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/UserEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +108,7 @@
       <workItem from="1684428477399" duration="16165000" />
       <workItem from="1684624602855" duration="6630000" />
       <workItem from="1684689529137" duration="19707000" />
-      <workItem from="1684782798315" duration="13345000" />
+      <workItem from="1684782798315" duration="17632000" />
     </task>
     <task id="LOCAL-00001" summary="Se acomoda las dependencias y estructura del proyecto">
       <created>1684031046185</created>
@@ -171,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684726042536</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Creando base del assembler">
+      <created>1684815710515</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684815710515</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +173,7 @@
     <MESSAGE value="Agregando Util para fechas y DTOs" />
     <MESSAGE value="Completando DTOs" />
     <MESSAGE value="Completando DTOs y configuracion de Application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completando DTOs y configuracion de Application" />
+    <MESSAGE value="Creando base del assembler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creando base del assembler" />
   </component>
 </project>

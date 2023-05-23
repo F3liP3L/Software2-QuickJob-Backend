@@ -16,5 +16,6 @@ import java.util.UUID;
 public class CountryEntity {
     @Id
     private UUID id;
+    @Column(nullable = false)
     private String name;
 }

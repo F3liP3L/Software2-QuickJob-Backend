@@ -9,17 +9,20 @@ import java.util.UUID;
 @Data
 @NoArgsConstructor
 @Entity
-@Table(name = "usuario")
+@Table(name = "user")
 public class UserEntity {
     @Id
     private UUID id;
+    @Column(nullable = false)
     private String name;
+    @Column(nullable = false)
     private String email;
     private String profileDescription;
+    @Column(nullable = false)
     private String password;
     private String image;
     @OneToOne
-    @JoinColumn
+    @JoinColumn(nullable = false)
     private PersonEntity person;
 
 }

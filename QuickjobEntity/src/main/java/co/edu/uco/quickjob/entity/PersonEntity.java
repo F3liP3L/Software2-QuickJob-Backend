@@ -10,20 +10,24 @@ import java.util.UUID;
 @Data
 @NoArgsConstructor
 @Entity
-@Table(name = "persona")
+@Table(name = "person")
 public class PersonEntity {
     @Id
     private UUID id;
+    @Column(nullable = false)
     private String idNumber;
+    @Column(nullable = false)
     private String firstName;
     private String middleName;
+    @Column(nullable = false)
     private String lastName;
     private String middleLastName;
+    @Column(nullable = false)
     private Date dateBirth;
     @ManyToOne
-    @JoinColumn
+    @JoinColumn(nullable = false)
     private TypeIdentificationEntity typeIdentification;
     @ManyToOne
-    @JoinColumn
+    @JoinColumn(nullable = false)
     private CityEntity cityResidence;
 }

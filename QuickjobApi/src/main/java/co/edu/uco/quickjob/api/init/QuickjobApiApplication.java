@@ -7,13 +7,11 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EnableJpaRepositories(basePackages ="co.edu.uco.quickjob" )
-@ComponentScan(basePackages ="co.edu.uco.quickjob" )
-@EntityScan(basePackages = {"co.edu.uco.publiuco" })
+@EnableJpaRepositories(basePackages = {"co.edu.uco.quickjob"})
+@ComponentScan(basePackages = {"co.edu.uco.quickjob"} )
+@EntityScan(basePackages = {"co.edu.uco.quickjob" })
 public class QuickjobApiApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(QuickjobApiApplication.class, args);
     }
-
 }

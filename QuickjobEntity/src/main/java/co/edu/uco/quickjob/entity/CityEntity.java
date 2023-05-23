@@ -9,10 +9,11 @@ import java.util.UUID;
 @Data
 @NoArgsConstructor
 @Entity
-@Table(name = "ciudad")
+@Table(name = "city")
 public class CityEntity {
     @Id
     private UUID id;
+    @Column(nullable = false)
     private String name;
 
     @ManyToOne

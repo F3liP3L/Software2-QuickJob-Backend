@@ -8,11 +8,12 @@ import java.util.UUID;
 @Data
 @NoArgsConstructor
 @Entity
-@Table(name = "departamento")
+@Table(name = "department")
 public class DepartmentEntity {
     @Id
     private UUID id;
 
+    @Column(nullable = false)
     private String name;
     @ManyToOne
     @JoinColumn
