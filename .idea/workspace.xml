@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="143ecfda-8727-4c07-8ce5-61b0721dc7f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/CityDomainBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/CountryDomainBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/DepartmentDomainBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/PersonDomainBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/TypeIdentificationDomainBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/UserDomainBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobApi/src/main/java/co/edu/uco/quickjob/api/init/QuickjobApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobApi/src/main/java/co/edu/uco/quickjob/api/init/QuickjobApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobApi/src/main/java/co/edu/uco/quickjob/api/init/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobApi/src/main/java/co/edu/uco/quickjob/api/init/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/CityEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/CityEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/CountryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/CountryEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/DepartmentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/DepartmentEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/PersonEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/PersonEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/TypeIdentificationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/TypeIdentificationEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobEntity/src/main/java/co/edu/uco/quickjob/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/CityDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/CityDomain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/CountryDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/CountryDomain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/CountryDomainBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/CountryDomainBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,33 +47,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "20",
-    "last_opened_file_path": "C:/Users/Felipe/Documents/Software II/Software2-QuickJob-Backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "9152b3114c34490e9323334a1410c3f1",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Felipe/Documents/Software II/Software2-QuickJob-Backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9152b3114c34490e9323334a1410c3f1&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="QuickjobApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="QuickjobApi" />
@@ -108,7 +99,8 @@
       <workItem from="1684428477399" duration="16165000" />
       <workItem from="1684624602855" duration="6630000" />
       <workItem from="1684689529137" duration="19707000" />
-      <workItem from="1684782798315" duration="17632000" />
+      <workItem from="1684782798315" duration="17792000" />
+      <workItem from="1684884001561" duration="4463000" />
     </task>
     <task id="LOCAL-00001" summary="Se acomoda las dependencias y estructura del proyecto">
       <created>1684031046185</created>
@@ -159,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684815710515</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Creando maqueta del builder">
+      <created>1684820418910</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684820418910</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +173,7 @@
     <MESSAGE value="Completando DTOs" />
     <MESSAGE value="Completando DTOs y configuracion de Application" />
     <MESSAGE value="Creando base del assembler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creando base del assembler" />
+    <MESSAGE value="Creando maqueta del builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creando maqueta del builder" />
   </component>
 </project>
