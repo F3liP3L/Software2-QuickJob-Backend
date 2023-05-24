@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="143ecfda-8727-4c07-8ce5-61b0721dc7f1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/assambler/dto/DTOAssambler.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/assambler/dto/DTOAssambler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/assambler/dto/implementation/CountryDTOAssambler.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/assambler/dto/implementation/CountryDTOAssambler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/assambler/dto/implementation/DepartmentDTOAssambler.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/assambler/dto/implementation/DepartmentDTOAssambler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/assambler/entity/EntityAssambler.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/assambler/entity/EntityAssambler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/assambler/entity/implementation/CountryEntityImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/assambler/entity/implementation/CountryEntityAssambler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/CountryDomainBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/CountryDomainBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/assambler/dto/DTOAssambler.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/assambler/dto/DTOAssembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/assambler/dto/implementation/CountryDTOAssambler.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/assambler/dto/implementation/CountryDTOAssembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/assambler/dto/implementation/DepartmentDTOAssambler.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/assambler/dto/implementation/DepartmentDTOAssembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/assambler/entity/EntityAssambler.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/assambler/entity/EntityAssembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/assambler/entity/implementation/CountryEntityAssambler.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickjobService/src/main/java/co/edu/uco/quickjob/service/assambler/entity/implementation/CountryEntityAssambler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +100,7 @@
       <workItem from="1684624602855" duration="6630000" />
       <workItem from="1684689529137" duration="19707000" />
       <workItem from="1684782798315" duration="17792000" />
-      <workItem from="1684884001561" duration="10797000" />
+      <workItem from="1684884001561" duration="12620000" />
     </task>
     <task id="LOCAL-00001" summary="Se acomoda las dependencias y estructura del proyecto">
       <created>1684031046185</created>
@@ -169,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684890080173</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ensamblador con ModelMapping">
+      <created>1684903540542</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684903540542</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +189,7 @@
     <MESSAGE value="Creando base del assembler" />
     <MESSAGE value="Creando maqueta del builder" />
     <MESSAGE value="Avance en el builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avance en el builder" />
+    <MESSAGE value="Ensamblador con ModelMapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ensamblador con ModelMapping" />
   </component>
 </project>

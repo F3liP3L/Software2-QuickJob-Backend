@@ -1,6 +1,6 @@
 package co.edu.uco.quickjob.service.assambler.entity;
 
-public interface EntityAssambler<E, D> {
+public interface EntityAssembler<E, D> {
 
     D assembleToDomain(E entity);
 

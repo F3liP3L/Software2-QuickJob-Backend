@@ -1,16 +1,18 @@
 package co.edu.uco.quickjob.service.assambler.dto.implementation;
 
 import co.edu.uco.quickjob.dto.CountryDTO;
-import co.edu.uco.quickjob.service.assambler.dto.DTOAssambler;
+import co.edu.uco.quickjob.service.assambler.dto.DTOAssembler;
 import co.edu.uco.quickjob.service.domain.CountryDomain;
 import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class CountryDTOAssambler implements DTOAssambler<CountryDTO, CountryDomain> {
+public class CountryDTOAssembler implements DTOAssembler<CountryDTO, CountryDomain> {
+
     private final ModelMapper modelMapper;
 
-    public CountryDTOAssambler() {
+    public CountryDTOAssembler() {
         this.modelMapper = new ModelMapper();
     }
 
