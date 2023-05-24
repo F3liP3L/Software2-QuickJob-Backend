@@ -18,6 +18,10 @@ public class CountryDomainBuilder {
         setName(EMPTY);
     }
 
+    public static final CountryDomainBuilder get(){
+        return new CountryDomainBuilder();
+    }
+
     public UUID getId() {
         return id;
     }
@@ -34,7 +38,7 @@ public class CountryDomainBuilder {
         this.name = trim(name);
     }
 
-    public final CountryDomain build(){
+    public CountryDomain build(){
         return CountryDomain.build(getId(),getName());
     }
 }

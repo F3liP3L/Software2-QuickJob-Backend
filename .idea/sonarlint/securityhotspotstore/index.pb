@@ -6,8 +6,6 @@
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 C
 QuickjobApi/pom.xml,6\8\68c91d6f5b8d82c7d804710480e1402b80d27ecb
-G
-QuickjobService/pom.xml,b\0\b0d0bd60d8c94e1ecc47e5172741277f82f87bc5
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 C
@@ -24,16 +22,12 @@ w
 GCrosscutting/src/main/java/co/edu/uco/crosscutting/util/UtilObject.java,2\1\21529869be85500d4fea8484fb95a7c3fbd1807e
 x
 HCrosscutting/src/main/java/co/edu/uco/crosscutting/util/UtilNumeric.java,6\6\661505920cd4d58d97fab83ab861633826f13bc1
-Ü
-VQuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/DepartmentDomain.java,8\8\887a694de23dd35e28de06f2d5f68d01dbbd4687
 Ç
 RCrosscutting/src/main/java/co/edu/uco/crosscutting/exception/GeneralException.java,f\2\f26abeddfa10248201ff93d26996ad1a6b07faab
 u
 ECrosscutting/src/main/java/co/edu/uco/crosscutting/util/UtilDate.java,5\f\5f404515dc04bb07570585db81818617394d465f
 t
 DQuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/DepartmentDTO.java,f\e\fe91409b5f80d0685cace8fc61e413585a83ea36
-é
-^QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/TypeIdentificationDomain.java,0\5\05bbdfdb2d1d7fdded45f06ffea9a47071b8a5c9
 Ä
 PQuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/UserDomain.java,4\1\411ae2d30fe05591d23e84e2779298847aacfb22
 p
@@ -50,8 +44,6 @@ UQuickjobRepository/src/main/java/co/edu/uco/quickjob/repository/PersonRepositor
 lQuickjobCrosscutting/src/main/java/co/edu/uco/quickjob/crosscutting/exception/enumeration/ExceptionType.java,0\9\09c7a99ec0fb41b835576acfb636fd4d1594a335
 †
 pQuickjobCrosscutting/src/main/java/co/edu/uco/quickjob/crosscutting/exception/enumeration/ExceptionLocation.java,1\0\1026a4eb34e7815837c5478bfbdf189097a0811c
-¶
-vQuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/assambler/dto/implementation/CountryDTOAssambler.java,0\0\00f00046680f774c66715503587fcc27d4ff3ae4
 ö
 jQuickjobCrosscutting/src/main/java/co/edu/uco/quickjob/crosscutting/exception/QuickJobCustomException.java,a\f\af29550173a0244be0f60842aae773912f623ad2
 í
@@ -76,12 +68,8 @@ YQuickjobRepository/src/main/java/co/edu/uco/quickjob/repository/DepartmentRepos
 LQuickjobDTO/src/main/java/co/edu/uco/quickjob/dto/TypeIdentificationDTO.java,3\7\379d12fe96a6d879e795a9c82279d92de4f942fc
 F
 QuickjobEntity/pom.xml,8\3\83b265d13e100dcded32bdc8c2e608b2dc6eb7cd
-©
-yQuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/assambler/dto/implementation/DepartmentDTOAssambler.java,a\6\a6a76b37e919834b68b2c9afc4a3d6b78635401c
 Ç
 RQuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/PersonDomain.java,5\1\5149a942c773b90f182db8a8e50f0925b172a363
-ê
-`QuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/assambler/dto/DTOAssambler.java,d\b\dbb17c227338cea2254deb48e704c148f1911b69
 ï
 eQuickjobService/src/main/java/co/edu/uco/quickjob/service/domain/builder/DepartmentDomainBuilder.java,e\f\eff39e08efd782dfa9c404dd204131d94c43e4db
 è
