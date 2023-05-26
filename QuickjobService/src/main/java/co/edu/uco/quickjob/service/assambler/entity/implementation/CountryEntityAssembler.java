@@ -7,9 +7,9 @@ import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 
 @Component
-public class CountryEntityAssambler implements EntityAssembler<CountryEntity, CountryDomain> {
+public class CountryEntityAssembler implements EntityAssembler<CountryEntity, CountryDomain> {
     private final ModelMapper modelMapper;
-    public CountryEntityAssambler() {
+    public CountryEntityAssembler() {
         this.modelMapper = new ModelMapper();
     }
     @Override
