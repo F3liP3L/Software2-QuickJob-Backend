@@ -1,6 +1,7 @@
 package co.edu.uco.quickjob.dto;
 
-import co.edu.uco.crosscutting.util.UtilText;
+
+import co.edu.uco.crosscutting.util.UtilUUID;
 
 import static co.edu.uco.crosscutting.util.UtilText.*;
 
@@ -14,8 +15,8 @@ public class CountryDTO {
     }
 
     public CountryDTO() {
-        setId(UtilText.EMPTY);
-        setName(UtilText.EMPTY);
+        setId(EMPTY);
+        setName(EMPTY);
     }
 
     public static final CountryDTO create(){

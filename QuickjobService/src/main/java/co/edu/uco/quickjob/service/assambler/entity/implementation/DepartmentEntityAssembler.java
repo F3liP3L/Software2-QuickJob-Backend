@@ -4,7 +4,9 @@ import co.edu.uco.quickjob.entity.DepartmentEntity;
 import co.edu.uco.quickjob.service.assambler.entity.EntityAssembler;
 import co.edu.uco.quickjob.service.domain.DepartmentDomain;
 import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Component;
 
+@Component
 public class DepartmentEntityAssembler implements EntityAssembler<DepartmentEntity, DepartmentDomain> {
 
     private final ModelMapper modelMapper;
